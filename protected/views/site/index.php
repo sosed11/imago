@@ -71,6 +71,7 @@
 				<input type="password"  id="geslo" class="inputtxtpass" name="geslo"/>
 				<div id="gumb-prijava"><input type="image" class="inputprijava" id="gumbprijava" src="<?php echo Yii::app()->request->baseUrl; ?>/images/gumb-prijava.png"/></div>
 			</form>
+                    <div style="margin-left: 18px; text-align: left; font-size: 11px;"><br/><?php echo CHtml::link('Registriraj se',array('registracija')); ?></div>
 		</div>
 	</div>
 	<div style="clear:both;"> </div>
