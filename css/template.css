@@ -1,0 +1,277 @@
+﻿body{
+	background-image:url('../images/background.png');
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+        color: #7f7f7f;
+}
+html, body {
+	height: 100%;
+}
+
+
+#container33{
+        min-height:100%;
+        position:relative;
+        min-width: 100%
+}
+
+#stran{
+	margin-left: auto;
+	margin-right: auto;
+	width: 858px;
+        padding-bottom: 50px;
+}
+
+#nad_stranjo1{
+	background-image: url('../images/background-black.png');
+	height: 5px;
+}
+#nad_stranjo2{
+	background-image: url('../images/background-crta.png');
+	height: 1px;
+}
+
+#header{
+	height: 80px;
+}
+
+#header_logo{
+	float: left;
+}
+
+#header_logo_zgoraj{
+	width: 10px;
+	height: 9px;
+}
+
+#header_logo_levo{
+	float: left;
+	height: 10px;
+	width: 8px;
+}
+
+#header_meni{
+	float: right;
+}
+
+#header_meni_zgoraj{
+	height: 30px;
+}
+
+#crta{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 858px;
+	height: 2px;
+	background-image: url('../images/header-crta.png');
+}
+
+#razmik_header_telo{
+	height: 25px;
+}
+
+#domov_opisi{
+	margin: 25px 10px 0px 10px;
+}
+
+#domov_opis{
+	width: 196px;
+	float:left;
+	font-size: 14px;
+	color: #7f7f7f;
+	text-align: justify;
+	overflow: hidden;
+
+}
+
+#domov_opis2{
+	width: 198px;
+	float:left;
+	font-size: 14px;
+	color: #7f7f7f;
+	text-align: justify;
+	overflow: hidden;
+
+}
+
+#domov_opis_vmes{
+	width: 17px;
+	height: 1px;
+	float:left;
+}
+
+#domov_opis_vmes2{
+	width: 16px;
+	height: 1px;
+	float:left;
+}
+
+#domov_opis_vmes3{
+	width: 10px;
+	height: 1px;
+	float:left;
+}
+
+span.domov_opisi_naslov{
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+span.domov_opisi_naslov2{
+	color: #A51E1E;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+span.domov_opisi_naslov3{
+	color: #A51E1E;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+
+#domov_crta{
+	background-image: url('../images/header-crta-spodaj.png');
+	position: relative;
+	top: 44px;
+	height: 2px;
+}
+
+#domov_opis_razmik{
+	height: 10px;
+}
+
+#domov_opis_razmik2{
+	height: 6px;
+}
+
+#domov_opis_login{
+	margin-top: 5px;
+	text-align: right;
+
+}
+
+.inputtxtuser{
+	height: 25px;
+	width: 150px;
+	border: 3px solid rgba(192, 192, 192, .5);
+	background: rgba(255, 255, 255, .7);
+	background-image: url('../images/input-user-bg.png');
+	padding-left: 25px;
+	border-radius: 5px;
+}
+
+.inputtxtpass{
+	height: 25px;
+	width: 150px;
+	border: 3px solid rgba(192, 192, 192, .5);
+	background: rgba(255, 255, 255, .7);
+	background-image: url('../images/input-pass-bg.png');
+	padding-left: 25px;
+	border-radius: 5px;
+}
+
+
+.inputprijava{
+	border: 3px solid rgba(192, 192, 192, .5);
+	border-radius: 5px;
+}
+
+#gumb-prijava{
+	margin-top: 10px;
+	width: 100%;
+	text-align: right;
+}
+
+#domov_naj{
+	margin: 25px 0px 30px 10px;
+}
+
+#domov_crta3{
+	background-image: url('../images/header-crta-3.png');
+	position: relative;
+	top: 44px;
+	height: 2px;
+
+}
+
+#domov_naj_opis{
+	width: 305px;
+	float:right;
+}
+
+
+#domov_naj_opis_levo{
+	width: 500px;
+	float:left;
+}
+
+
+#domov_slika{
+	float:left;
+	width: 73px;
+	height: 73px;
+	overflow: hidden;
+}
+
+#footer{
+	background-image: url('../images/background-black.png');
+        position:absolute;
+        bottom:0;
+        width: 100%;
+}
+
+#podpis{
+	text-align: right; 
+	font-weight:bold;
+	margin-top: 5px;
+	color: #363636;
+	font-style:normal;
+}
+
+#domov_naj_opis_vsebina{
+	text-align: justify;
+	margin-right: 10px;
+	font-size: 14px;
+	font-style:italic;
+	color: #7f7f7f;
+}
+
+#footerdiv{
+	width: 838px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+
+}
+
+#footer-desno{
+	float:right;
+	color: #dedede;
+	font-size: 10px;
+	text-align:right;
+}
+
+#footer_1{
+	float:left;
+	color: #dedede;
+	font-size: 12px;
+	width: 500px;
+	text-align: justify;
+}
+#footer_razmik{
+	height: 5px;
+}
+
+#domov_opis_pred_naj{
+	width: 20px;
+	height: 50px;
+	float:left;
+}
